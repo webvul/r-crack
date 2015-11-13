@@ -5,7 +5,7 @@ The Redis security model is: “it’s totally insecure to let untrusted clients
 
 Quickstart
 ----------
-redis-rootkit require `redis-py <https://github.com/andymccurdy/redis-py>` to execute remote commands.
+redis-rootkit require `redis-py <https://github.com/andymccurdy/redis-py>`_ to execute remote commands.
 
 .. code-block:: bash
 	
@@ -26,10 +26,10 @@ redis-rootkit require `redis-py <https://github.com/andymccurdy/redis-py>` to ex
 
 API Reference
 -------------
-* Usage: python redis-rootkit.py [OPTIONS] [TARGETS]
-* -h --help: show redis-rootkit options.
-* -p --port: target host port.
-* -r --rsa-pub: rsa public key.
+* **Usage:** python redis-rootkit.py [OPTIONS] [TARGETS]
+* **-h --help:** show redis-rootkit options.
+* **-p --port:** target host port.
+* **-r --rsa-pub:** rsa public key.
 
 
 LICENSE
